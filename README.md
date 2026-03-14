@@ -1,6 +1,6 @@
 # ZTPAI_Projekt
 
-ibrary Management System
+library Management System
 Opis projektu
 
 Aplikacja biblioteki umożliwia:
@@ -57,43 +57,6 @@ Przejdź do katalogu frontendu (np. frontend/)
 Frontend powinien być dostępny na:
 http://localhost:5173
 
-🔑 Logowanie i token
-
-Po zalogowaniu token JWT jest zapisywany w localStorage
-
-Frontend automatycznie wysyła token w nagłówkach Authorization: Bearer <token>
-
-🛠 Funkcjonalności
-Backend
-
-/auth/register – rejestracja użytkownika
-
-/auth/login – logowanie użytkownika
-
-/books – pobranie listy książek (GET)
-
-/loans/{bookId} – wypożyczenie książki (POST)
-
-Frontend
-
-Strona logowania / rejestracji
-
-Wyświetlanie książek
-
-Wypożyczanie książek
-
-Wylogowanie
-
-💡 Uwagi
-
-Backend używa BCryptPasswordEncoder do bezpiecznego haszowania haseł
-
-CORS jest włączony dla http://localhost:5173
-
-Token JWT jest weryfikowany przy każdym wywołaniu chronionych endpointów
-
-🧹 Porządkowanie
-
-Jeśli zmieniasz klasy w backendzie, zatrzymaj serwer i odśwież projekt w IDE przed ponownym uruchomieniem
-
-Jeśli frontend pokazuje błędy Failed to fetch, sprawdź czy token jest zapisany w localStorage i backend działa na porcie 8080
+Logowanie i token
+    Po zalogowaniu token JWT jest zapisywany w localStorage
+    Frontend automatycznie wysyła token w nagłówkach Authorization: Bearer <token>
